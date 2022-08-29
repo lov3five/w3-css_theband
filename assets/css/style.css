@@ -20,7 +20,9 @@ html {
     top: 0;
 }
 
-.nav {}
+.nav {
+    display: inline-block;
+}
 
 .nav .subnav {
     display: none;
@@ -52,6 +54,11 @@ html {
 .nav .subnav li:hover a,
 .nav>li:hover>a {
     background-color: #CCCCCC;
+    color: #000;
+}
+
+.nav li:hover #icon-dropdown{
+    color: black;
 }
 
 .subnav li {
@@ -75,9 +82,28 @@ html {
     box-shadow: 1px 1px 1px 1px gray;
 }
 
+.header .search-btn{
+    float: right;
+    
+}
+
+.header .search-btn .search-icon{
+    display: inline-block;
+    color: white;
+    line-height: 46px;
+    font-size: 125%;
+    padding: 0px 24px;
+}
+
+.header .search-btn:hover .search-icon{
+    background-color: #f44336;
+    
+}
 
 
-.slider {}
+.slider {
+
+}
 
 .content {}
 
