@@ -8,10 +8,19 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Global */
+.text-white{
+    color: white;
+}
+.clear{
+    clear: both;
+}
+
 .wrapper {
    height: 1000px;
 }
 
+/* Header */
 .header {
     height: 46px;
     width: 100%;
@@ -133,13 +142,13 @@ html {
     margin-right: auto;
 }
 
-.content .content-section{
+.content-section{
     text-align: center;
     width: 100%;
     
 }
 
-.content .section-heading{
+.section-heading{
     letter-spacing: 4px;
     text-transform: uppercase;
     margin: 10px 0px;
@@ -147,7 +156,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content .section-sub-heading{
+.section-sub-heading{
     font-style: italic;
     color: #666;
     margin: 15px 0px;
@@ -179,9 +188,16 @@ html {
     margin: 0px 0px 16px;
 }
 
-
-.clear{
-    clear: both;
+/* Tour */
+.tour-section{
+    background-color: #000;
+    height: 500px;
+    width: 100%;
 }
+.tour-section .content-section .tickets-list{
+    background-color: white;
+    margin-top: 40px;
+}
+
 
 .footer {}
