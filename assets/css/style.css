@@ -191,12 +191,36 @@ html {
 /* Tour */
 .tour-section{
     background-color: #000;
-    height: 500px;
     width: 100%;
 }
 .tour-section .content-section .tickets-list{
     background-color: white;
     margin-top: 40px;
+}
+
+.tickets-list li{
+    padding: 8px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    list-style-type: none;
+    line-height: 24px;
+}
+
+.tickets-list .sold-old {
+    color: white;
+    background-color: #f44336;
+    padding: 3px 8px;
+    margin: 0px 0px 0px 16px;
+}
+
+.tickets-list .quantity{
+    float: right;
+    margin: 0px 16px 0px 0px;
+    padding: 0px 8px;
+    background-color: #000;
+    color: white;
+    border-radius: 50%;
 }
 
 
