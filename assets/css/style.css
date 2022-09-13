@@ -20,6 +20,42 @@ html {
    height: 1000px;
 }
 
+.text-left{
+    text-align: left;
+}
+
+.row{
+    width: 100%;
+    height: fit-content;
+    padding-left: -8px;
+    padding-right: -8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.col{
+    float: left;
+}
+
+.col-third{
+    width: 33.33333%;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: 50%;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container{
+    padding: 0.15px 16px;
+    background-color: white;
+}
+
 /* Header */
 .header {
     height: 46px;
@@ -145,7 +181,6 @@ html {
 .content-section{
     text-align: center;
     width: 100%;
-    
 }
 
 .section-heading{
@@ -175,15 +210,14 @@ html {
     padding: 32px 0px;
     text-align: center;
 }
-.card{
-    width: 33.33333%;
+.tag{
+    width: 33.333%;
     float: left;
-    
 }
 .name{
 
 }
-.card .image img{
+.tag .image img{
     border-radius: 4px;
     margin: 0px 0px 16px;
 }
@@ -221,7 +255,50 @@ html {
     background-color: #000;
     color: white;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card */
+.card{
+    height: 100%;
+}
+.card-img{
+    
+    width: 100%;
+    vertical-align: middle;
+}
+.card-title{
+    display: block;
+    margin: 15px 0px;
+}
+.date{
+    display: block;
+    margin: 15px 0px;
+    opacity: 0.6;
+}
+.card-desc{
+    display: block;
+    margin: 15px 0px;
+}
+.card-button{
+    display: inline-block;
+    margin: 0px 0px 16px;
+    padding: 8px 16px;
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+    
+}
+.card-button:hover {
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
 }
 
 
-.footer {}
+
+
+.footer {
+
+}
